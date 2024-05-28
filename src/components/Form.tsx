@@ -87,7 +87,7 @@ const Form = () => {
         <button type='submit' className="w-48 h-14 bg-purple-500 rounded-3xl">
           <p className="text-xl text-white font-medium">Get Quote</p>
         </button>
-        <div className='w-20 h-auto flex items-center justify-between '>
+        <div className='w-16 h-auto flex items-center justify-between '>
 
         <label htmlFor="fileUpload" className="text-sm">
           <input type="file" id="fileUpload" onChange={handleFileChange} className="hidden" />
